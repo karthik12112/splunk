@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<ExecutionLogModel>
+<LogEvent level="INFO" time="2021-02-22T06:21:01Z" shapename="initializing..." shapetype="initializing..." shapelabel="" shapeextendedinfo="">
+<Message>Executing Process Listener Error Handling</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-02-22T06:21:01Z" shapename="shape1" shapetype="Start" shapelabel="" shapeextendedinfo="Notification Error Handler Queue: queue Connector; Notification Error Handler Listen">
+<Message>Executing Start Shape</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-02-22T06:21:01Z" shapename="shape1" shapetype="Start" shapelabel="" shapeextendedinfo="Notification Error Handler Queue: queue Connector; Notification Error Handler Listen">
+<Message>1 document(s) found for processing.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-02-22T06:21:01Z" shapename="shape1" shapetype="Start" shapelabel="" shapeextendedinfo="Notification Error Handler Queue: queue Connector; Notification Error Handler Listen">
+<Message>Shape executed successfully in 23 ms.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-02-22T06:21:01Z" shapename="shape3" shapetype="Branch" shapelabel="" shapeextendedinfo="">
+<Message>Executing Branch Shape with 1 document(s).</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-02-22T06:21:01Z" shapename="shape3" shapetype="Branch" shapelabel="" shapeextendedinfo="">
+<Message>Shape executed successfully in 1 ms.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-02-22T06:21:01Z" shapename="shape4" shapetype="Decision" shapelabel="Email = YES" shapeextendedinfo="">
+<Message>Executing Decision with 1 document(s).</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-02-22T06:21:01Z" shapename="shape4" shapetype="Decision" shapelabel="Email = YES" shapeextendedinfo="">
+<Message>Shape executed successfully in 286 ms.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-02-22T06:21:01Z" shapename="shape8" shapetype="Connector" shapelabel="" shapeextendedinfo="Notification Email Queue: queue Connector; Send_Email_Queue">
+<Message>Executing Connector Shape with 1 document(s).</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-02-22T06:21:01Z" shapename="shape8" shapetype="Connector" shapelabel="" shapeextendedinfo="Notification Email Queue: queue Connector; Send_Email_Queue">
+<Message>Shape executed successfully in 38 ms.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-02-22T06:21:01Z" shapename="shape7" shapetype="Stop" shapelabel="" shapeextendedinfo="continuing process">
+<Message>Executing Stop Shape with 0 document(s).</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-02-22T06:21:01Z" shapename="shape7" shapetype="Stop" shapelabel="" shapeextendedinfo="continuing process">
+<Message>Shape executed successfully in 0 ms.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-02-22T06:21:01Z" shapename="cleanup..." shapetype="cleanup..." shapelabel="" shapeextendedinfo="">
+<Message>Process execution completed normally.</Message>
+</LogEvent>
+</ExecutionLogModel>
