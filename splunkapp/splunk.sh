@@ -10,3 +10,11 @@ vi /opt/splunk/etc/apps/search/local/props.conf
 [karthik]
 BREAK_ONLY_BEFORE = <ExecutionLogModel>
 MAX_EVENTS = 10000
+
+host=test | spath output=message path=ExecutionLogModel.LogEvent.Message
+| spath output=shape path=ExecutionLogModel.LogEvent{@shapetype}
+| spath output=time path=ExecutionLogModel.LogEvent{@time}
+| spath output=level path=ExecutionLogModel.LogEvent{@level}
+| spath output=process path=ExecutionLogModel.LogEvent{1}.Message
+| rex field=source "^\/[^\/]+\/[^\/]+\/[^\/]+\/[^\/]+\/[^\/]+\/[^\/]+\/(?<date>[^\/]+)+\/(?<execution>[^\/]+)\/"  
+| table execution, process, time, level, shape, message

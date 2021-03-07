@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<ExecutionLogModel>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="initializing..." shapetype="initializing..." shapelabel="" shapeextendedinfo="">
+<Message>Executing Process Implementation Handler</Message></LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape1" shapetype="Start" shapelabel="" shapeextendedinfo="NoData">
+<Message>Executing Start Shape</Message>
+</LogEvent><LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape1" shapetype="Start" shapelabel="" shapeextendedinfo="NoData">
+<Message>1 document(s) found for processing.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape1" shapetype="Start" shapelabel="" shapeextendedinfo="NoData"><Message>Shape executed successfully in 5 ms.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape2" shapetype="Try/Catch" shapelabel="" shapeextendedinfo="">
+<Message>Executing Try/Catch Shape with 1 document(s).</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape2" shapetype="Try/Catch" shapelabel="" shapeextendedinfo="">
+<Message>Launching Try/Catch Shape fiber f_0 as execution-6720f277-7919-46c9-bc14-7cf44f09090f-2021.03.07 with 1 document(s).</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape2" shapetype="Try/Catch" shapelabel="" shapeextendedinfo="">
+<Message>Completed Try/Catch initial execution (shape2)</Message>
+</LogEvent>
+<LogRef executionId="execution-6720f277-7919-46c9-bc14-7cf44f09090f-2021.03.07" logFileName="process_log.xml" time="2021-03-07T07:05:17Z" />
+<LogEvent level="WARNING" time="2021-03-07T07:05:17Z" shapename="shape2" shapetype="Try/Catch" shapelabel="" shapeextendedinfo="">
+<Message>Try/Catch Shape sending 1 document(s) down error path</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape2" shapetype="Try/Catch" shapelabel="" shapeextendedinfo=""><Message>Shape executed successfully in 5 ms.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape4" shapetype="Message" shapelabel="" shapeextendedinfo="">
+<Message>Executing Message Shape with 1 document(s).</Message></LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape4" shapetype="Message" shapelabel="" shapeextendedinfo="">
+<Message>Shape executed successfully in 3 ms.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape8" shapetype="Connector" shapelabel="" shapeextendedinfo="Notification Error Handler Queue: queue Connector; Send to Notification Handler Queue">
+<Message>Executing Connector Shape with 1 document(s).</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape8" shapetype="Connector" shapelabel="" shapeextendedinfo="Notification Error Handler Queue: queue Connector; Send to Notification Handler Queue">
+<Message>Shape executed successfully in 29 ms.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape9" shapetype="Stop" shapelabel="" shapeextendedinfo="continuing process">
+<Message>Executing Stop Shape with 0 document(s).</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape9" shapetype="Stop" shapelabel="" shapeextendedinfo="continuing process">
+<Message>Shape executed successfully in 0 ms.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="cleanup..." shapetype="cleanup..." shapelabel="" shapeextendedinfo="">
+<Message>Process execution completed normally.</Message>
+</LogEvent>
+</ExecutionLogModel>

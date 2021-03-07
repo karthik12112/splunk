@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<ExecutionLogModel>
+<LogEvent level="FINE" time="2021-03-07T07:05:17Z" shapename="initializing..." shapetype="initializing..." shapelabel="" shapeextendedinfo=""><Message>Loading Process Model Implementation Handler (Continuation f_0)</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="initializing..." shapetype="initializing..." shapelabel="" shapeextendedinfo="">
+<Message>Executing Process Implementation Handler (Continuation f_0)</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape2" shapetype="Try/Catch" shapelabel="" shapeextendedinfo="">
+<Message>Executing Try/Catch Shape continuation as f_0 with 1 document(s).</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape2" shapetype="Try/Catch" shapelabel="" shapeextendedinfo="">
+<Message>Shape executed successfully in 1 ms.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape3" shapetype="Message" shapelabel="" shapeextendedinfo="">
+<Message>Executing Message Shape with 1 document(s).</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape3" shapetype="Message" shapelabel="" shapeextendedinfo="">
+<Message>Shape executed successfully in 2 ms.</Message></LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape5" shapetype="Data Process" shapelabel="" shapeextendedinfo="">
+<Message>Executing Data Process Shape with 1 document(s).</Message>
+</LogEvent><LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape5" shapetype="Data Process" shapelabel="" shapeextendedinfo="[1] Base64 encode">
+<Message>Executing with 1 documents in</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape5" shapetype="Data Process" shapelabel="" shapeextendedinfo="[1] Base64 encode">
+<Message>Completed with 1 documents out</Message></LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape5" shapetype="Data Process" shapelabel="" shapeextendedinfo="">
+<Message>Data Process Execution (BASE64_ENCODE) produced 1 documents.</Message>
+</LogEvent><LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape5" shapetype="Data Process" shapelabel="" shapeextendedinfo="">
+<Message>Shape executed successfully in 2 ms.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape6" shapetype="Document Properties" shapelabel="" shapeextendedinfo="">
+<Message>Executing Set Properties Shape with 1 document(s).</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape6" shapetype="Document Properties" shapelabel="" shapeextendedinfo="">
+<Message>Shape executed successfully in 0 ms.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape7" shapetype="Exception" shapelabel="" shapeextendedinfo="">
+<Message>Executing Exception Shape with 1 document(s).</Message>
+</LogEvent>
+<LogEvent level="SEVERE" time="2021-03-07T07:05:17Z" shapename="shape7" shapetype="Exception" shapelabel="" shapeextendedinfo="">
+<Message>Process terminating -- some documents reached an exception which is set to halt all documents: Forced Error
+</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="shape7" shapetype="Exception" shapelabel="" shapeextendedinfo="">
+<Message>Shape executed with errors in 4 ms.</Message>
+</LogEvent>
+<LogEvent level="INFO" time="2021-03-07T07:05:17Z" shapename="cleanup..." shapetype="cleanup..." shapelabel="" shapeextendedinfo="">
+<Message>Errors occurred in process.</Message>
+</LogEvent>
+</ExecutionLogModel>
