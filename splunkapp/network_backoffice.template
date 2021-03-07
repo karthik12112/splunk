@@ -151,6 +151,7 @@
             "Type": "String"
         },
         "Environment": {
+            "Default": "lab",
             "Description": "The environment being deployed into",
             "Type": "String"
         },
@@ -164,6 +165,7 @@
             "Type": "String"
         },
         "Service": {
+            "Default": "mounika",
             "Description": "Service Name",
             "Type": "String"
         },
@@ -173,6 +175,7 @@
             "Type": "String"
         },
         "VPCEnvCidr": {
+            "Default": "10.0",
             "Description": "VPC Cidr",
             "Type": "String"
         }
